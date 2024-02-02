@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-// (Código original aqui)
+// (Código original aqui), vide main.go
 
 func main() {
 	var c chan string = make(chan string)
@@ -48,7 +48,7 @@ import (
 	"time"
 )
 
-// (Código melhorado aqui)
+// (Código melhorado aqui), vide main.go
 
 func main() {
 	c := make(chan string)
@@ -61,10 +61,10 @@ func main() {
 	var entrada string
 	fmt.Scanln(&entrada)
 
-	// Sinalize o encerramento para as goroutines
+	// Sinaliza o encerramento para as goroutines
 	close(done)
 
-	// Aguarde um pouco para garantir que todas as goroutines terminem
+	// Aguarda um pouco para garantir que todas as goroutines terminem
 	time.Sleep(time.Second)
 }
 ```
