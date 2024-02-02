@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-// (Código original aqui), vide main.go
+// (Código original aqui), vide https://academiapme-my.sharepoint.com/:b:/g/personal/nubia_dio_me/EeTaf_s-LpxPij0xjbQaBisB7wP3LUIhdwAC3UFdARR4uw?e=CMHccy
 
 func main() {
 	var c chan string = make(chan string)
