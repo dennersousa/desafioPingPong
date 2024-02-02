@@ -81,7 +81,3 @@ func main() {
    cd desafioPingPong
    go run main.go
    ```
-
-3. Siga as instruções no console para encerrar o programa.
-
-Sinta-se à vontade para ajustar o código conforme necessário ou adicionar recursos adicionais. Este é um ponto de partida simples para experimentar com goroutines e canais em Go.
